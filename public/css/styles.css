@@ -4,3 +4,190 @@
 *:after {
   box-sizing: border-box;
 }
+body {
+ width: 100%;
+ height: 100%;
+ max-width: 1100px;
+ margin: 0 auto;
+}
+/* You will find all the CSS that is related to the header from here. */
+#top-header {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right, blue, skyblue);
+  padding: 2%;
+}
+.siteName a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.8em;
+}
+#tools {
+  display: inline;
+  float: right;
+  padding: 2% 0;
+  margin-right: 2%;
+}
+#tools a {
+  color: navy;
+  font-family: "Roboto", sans-serif;
+  font-size: .9em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* You will find all CSS related to the NAV from here. */
+nav {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #666;
+  text-align: center;
+  background-color: whitesmoke;
+}
+nav ul {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 2%;
+  color: navy;
+  margin: 0 auto;
+}
+
+/* You will find all CSS that is related to the footer from here. */
+footer {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  background-image: linear-gradient(to bottom, blue, navy);
+  padding: 2%;
+}
+footer span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+/* You will all the CSS that is related to the main from here. */
+#main-container {
+  padding: 2%;
+}
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.car {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+}
+.hero-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0 2%;
+  text-shadow: 1px 1px 1px #888;
+}
+#transparent-box {
+  background-color: rgba(213, 249, 249, 0.546);
+  color: rgb(5, 5, 93);
+  width: 46%;
+  height: 80%;
+  position: absolute;
+  top: 25%;
+  left: 1%;
+}
+#transparent-box h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 10px 3px;
+  margin: 0;
+  font-size: 1em;
+  text-shadow: 1px .5px 1px blue;
+}
+#transparent-box h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  padding: 3px;
+}
+.owntoday  {
+  width: 100%;
+  height: 30%;
+  
+}
+.review-container {
+  width: 100%;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  margin: 2em 0;
+}
+.review-container h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.review-container ul {
+  margin: 0;
+  padding: 0;
+  width: 95%;
+}
+.review-container ul li {
+  padding: .7em 0;
+  margin: 0;
+  color: #000;
+  font-weight: 400;
+  font-size: .9em;
+  width: 95%;
+  margin-left: 5%;
+}
+.upgrades-container {
+  width: 100%;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  margin: 1.5em 0;
+}
+.upgrades-container h2 {
+  font-size: 1.6em;
+}
+#grid-area {
+  background-image: radial-gradient(navy, skyblue);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+#grid-area span {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+}
+#grid-area span img {
+  display: block;
+  margin: auto;
+}
+#grid-area span a {
+  display: block;
+}

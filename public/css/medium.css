@@ -1,0 +1,80 @@
+/* medium oooooooooooooooo */
+@media only screen and (min-width: 35em) {
+  #top-header {
+    padding: 4%;
+  }
+  .siteName a {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  #tools {
+    margin: auto;
+    margin-right: 0;
+  }
+  #tools a {
+    font-size: 1.6em;
+  }
+  nav ul li {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  footer span {
+    font-size: 1.5em;
+  }
+
+  .hero-container {
+    height: 400px;
+    margin-bottom: 6%;
+  }
+  .hero-container h1 {
+    font-size: 2.5em;
+    padding: 0 4%;
+  }
+  #transparent-box {
+    width: 30%;
+    height: 300px;
+    background-color: rgba(246, 252, 252, 0.587);
+    left: 30px;
+    top: 80px;
+  }
+  #transparent-box h2 {
+    font-size: 1.8em;
+  }
+  #transparent-box h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .review-container {
+    display: inline;
+    padding: 2%;
+    margin: 0;
+  }
+  .review-container h2 {
+    font-size: 2em;
+    padding: 4% 0;
+  }
+  .review-container ul li {
+    font-weight: 400;
+    font-size: 1.6em;
+    margin-left: 5%;
+  }
+  #medium-grid {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .upgrades-container {
+    padding: 2%;
+    margin: 0;
+  }
+  .upgrades-container h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 4% 0;
+  }
+  #grid-area span {
+    padding: 20px;
+  }
+  #grid-area span a {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 64em){
+    #transparent-box {
+        top: 25%;
+        left: 5%;
+      }
+      .car {
+        width: 60%;
+        right: 15%;
+      }
+}
