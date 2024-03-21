@@ -1,0 +1,12 @@
+<!-- Building the content heading information -->
+<% if (title) { %>
+    <h1><%= title %></h1>
+    <% } else {
+      res.redirect('/')
+} %>
+
+<!-- Adding message block to it -->
+<%# messages() %>
+
+<!-- The Inventory Items Display -->
+<%- grid %>
